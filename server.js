@@ -1,13 +1,13 @@
 //console.log('hello world');
 
 // Dependencies
-var express = require("express");
-var bodyParser = require("body-parser");
-var path = require("path");
+const express = require("express");
+const bodyParser = require("body-parser");
+const path = require("path");
 
 // Sets up the Express App
-var app = express();
-var PORT = process.env.PORT || 3000;
+const app = express();
+const PORT = process.env.PORT || 3000;
 
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
@@ -17,7 +17,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
-  console.log("App listening on PORT " + PORT);
+  console.log("App listening on PORT http://localhost" + PORT);
 });
 
 // Requires and sets the HTML routes in this file
