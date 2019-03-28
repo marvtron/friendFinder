@@ -17,7 +17,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 // Starts the server to begin listening
 app.listen(PORT, function() {
-  console.log("App listening on PORT http://localhost" + PORT);
+  console.log("App listening on PORT http://localhost:" + PORT);
 });
 
 // Requires and sets the HTML routes in this file
