@@ -1,12 +1,12 @@
 
 // Variable to hold the array of friends objects data
 var friends = [
-    { "name": "Kyle", "photo": "", "scores": ["5", "1", "4", "4", "5", "1", "2", "5", "4", "1"] },
-    { "name": "Kate Burson", "photo": "", "scores": ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"] }, 
-    { "name": "Matt Sainson", "photo": "", "scores": ["5", "2", "2", "2", "4", "1", "3", "2", "5", "5"] }, 
-    { "name": "Lovdeep", "photo": "", "scores": ["3", "3", "4", "2", "2", "1", "3", "2", "2", "3"] }, 
-    { "name": "Jason Cartwright", "photo": "", "scores": ["4", "3", "4", "1", "5", "2", "5", "3", "1", "4"] }, 
-    { "name": "Marvin Tryon Jr", "photo": "", "scores": ["4", "4", "2", "3", "2", "2", "3", "2", "4", "5"] }];
+    { "name": "Kyle", "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftalksport.com%2Fwp-content%2Fuploads%2Fsites%2F5%2F2019%2F03%2FGettyImages-11283606981.jpg%3Fstrip%3Dall%26w%3D960%26quality%3D100&imgrefurl=https%3A%2F%2Ftalksport.com%2Ffootball%2F507070%2Ftottenham-pochettino-shock-touchline-ban%2F&docid=dQlWrr-j2whGDM&tbnid=k2z8MZ0ao_hQvM%3A&vet=1&w=960&h=640&source=sh%2Fx%2Fim", "scores": ["5", "1", "4", "4", "5", "1", "2", "5", "4", "1"] },
+    { "name": "Kate Burson", "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2015%2F01%2Fjennifer-lawrence.jpg&imgrefurl=http%3A%2F%2Ftime.com%2F3682719%2Fjennifer-lawrence-speech-producers-guild-awards%2F&docid=tKaTqb6Aj8gXRM&tbnid=9KMwn-9xVrJ8_M%3A&vet=1&w=1847&h=2650&source=sh%2Fx%2Fim", "scores": ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"] }, 
+    { "name": "Matt Sainson", "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fwhy-not-use-this-copyspace-its-free-picture-id181086342%3Fk%3D6%26m%3D181086342%26s%3D612x612%26w%3D0%26h%3DZxB6w_tmE8aN2Gkenus_rpwonnmh_bUtTXVye9o9u3Q%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fmy%2Fphotos%2Fwhite-man&docid=gIogFmtEDl7EhM&tbnid=fLQD3fKqnnwSvM%3A&vet=1&w=612&h=612&source=sh%2Fx%2Fim", "scores": ["5", "2", "2", "2", "4", "1", "3", "2", "5", "5"] }, 
+    { "name": "Lovdeep", "photo": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.theshillongtimes.com%2Fwp-content%2Fuploads%2F2017%2F06%2FRanveer-Singh-e1496416215764-447x430.jpg&imgrefurl=http%3A%2F%2Fwww.theshillongtimes.com%2F2019%2F01%2F25%2Fi-signed-gully-boy-because-original-track-had-me-hooked-ranveer%2F&docid=YQjqMoEGvX-2QM&tbnid=wSNKLFRhEJPO_M%3A&vet=1&w=447&h=430&source=sh%2Fx%2Fim", "scores": ["3", "3", "4", "2", "2", "1", "3", "2", "2", "3"] }, 
+    { "name": "Jason Cartwright", "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F03%2Ffa%2Fe3%2F03fae3c0f3b730ac864a71e4965348f4.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F311944711668935142%2F&docid=FVNBCDfMmF76yM&tbnid=cyTuLjZ85qFM1M%3A&vet=1&w=2296&h=3100&source=sh%2Fx%2Fim", "scores": ["4", "3", "4", "1", "5", "2", "5", "3", "1", "4"] }, 
+    { "name": "Marvin Tryon Jr", "photo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F0%2F0a%2FMarvin_Gaye_in_1973.jpg%2F220px-Marvin_Gaye_in_1973.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMarvin_Gaye&docid=GVvMaFNI8DF3SM&tbnid=EhPplXEYh6sMNM%3A&vet=1&w=220&h=254&source=sh%2Fx%2Fim", "scores": ["4", "4", "2", "3", "2", "2", "3", "2", "4", "5"] }];
 
 // Export the data
 module.exports = friends;
