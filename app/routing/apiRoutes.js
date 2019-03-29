@@ -34,7 +34,6 @@ module.exports = function(app) {
 
             for (var i = 0; i < friend.scores.length; i++) {
                 matchedScoresArray.push(Math.abs(parseInt(req.body.scores[i]) - parseInt(friend.scores[i])));
-
             }
 
             // This reduces the matchScoresArray into a single value in a variable
@@ -61,4 +60,4 @@ module.exports = function(app) {
         // This adds the new users sent data object to friends.js
         friends.push(req.body);
     });
-}
+};
